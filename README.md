@@ -11,11 +11,11 @@ Please make sure, you've setted up environmental variable.
 ```export PROJECT_PATH=<PATH_TO_PROJECT>```
 
 # Metric
-|           | Exact match |
-|-----------|-------------|
-| No CL     | 0.5906      |
-| Linear DM | 0.6399      |
-| Root DM   | 0.6350      |
+|                  | Exact match |
+|------------------|-------------|
+| No CL            | 0.5906      |
+| Linear Scheduler | 0.6399      |
+| Root Scheduler   | 0.6350      |
 
 # References
 1. [A Survey on Curriculum Learning](https://arxiv.org/pdf/2010.13166.pdf)
