@@ -1,0 +1,28 @@
+dataset:
+  pauq:
+    root_path: "data/pauq"
+    train:
+      basket_name: pauq_train.json
+      dev_size: 0.2
+    test:
+      basket_name: pauq_test.json
+  lcquad:
+    root_path: "data/lcquad"
+    train:
+      basket_name: lcquad_train.json
+      dev_size: 0.2
+    test:
+      basket_name: lcquad_test.json
+
+models:
+  seq2seqGRU:
+    lr: 0.001
+    num_layers: 1
+    hidden_size: 128
+    batch_size: 18
+    num_epoches: 50
+    device: cpu
+    grad_clip: 5
+curriculum:
+  n_steps: 10
+  min_fraction: 0.1
